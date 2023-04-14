@@ -3,5 +3,5 @@ import lily
 	
 @lily_sdk.action(name = "say")
 class Say():
-    def trigger_action(args):
-        lily.say(args)
+    def trigger_action(self):
+        lily.say(self)
